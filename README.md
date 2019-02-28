@@ -3,10 +3,9 @@
 #### By [Asma Adan](https://github.com/AsmaAdan)
 ##### Learning JavaScript at Moringa School prep requires the setting up of an application using HTML,CSS and JavaScript.
 ##### This particular  application allows two users to play a dice game. 
-#####It allows the user to see the score they get for each roll of the dice they make in the game. Furthermore, the application tallies up the points until one player reaches 100 points and declares them a winner  
-##### You can take a look at it and let me know any changes I should make or any suggestions you maybe having or how I should make my 
+##### It allows the user to see the score they get for each roll of the dice they make in the game. Furthermore, the application tallies up the points until one player reaches 100 points and declares them a winner  
+##### You can take a look at it and let me know any changes I should make or any suggestions you maybe having or how I should make my functions better and make the website more appealing. Thank you in advance.
 
-functions better and make the website more appealing. Thank you in advance.
 ## BDD
 #### Want to test how I did this project?
 ##### Here are the specs:
