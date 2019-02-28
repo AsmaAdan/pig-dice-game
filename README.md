@@ -1,6 +1,6 @@
 # Pig Dice Game
 ### An attempt at learning how to make applications using JavaScript.
-#### By (Asma Adan)[https://github.com/AsmaAdan]
+#### By [Asma Adan](https://github.com/AsmaAdan)
 ##### Learning JavaScript at Moringa School prep requires the setting up of an application using HTML,CSS and JavaScript.
 ##### This particular  application allows two users to play a dice game. 
 #####It allows the user to see the score they get for each roll of the dice they make in the game. Furthermore, the application tallies up the points until one player reaches 100 points and declares them a winner  
