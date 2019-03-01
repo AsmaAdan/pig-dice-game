@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quiz Board</title>
+	<title>Pig Dice Game</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="container">
+  <div class="container">
 		<div class="jumbotron">
-			<h1>Pig Dice Game</h1>
-			<h2>A member of Jeopardy race games</h2><a class="rules" href="rules.html">Rules Of the Game</a>
-		</div><br>
-		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-2">
-				<button class="btn btn-outline-warning" id="newGame">New Game</button><br>
-			</div>
-			<div class="col-md-5"></div>div id="game" class="row slide text-center"&gt;
-			<div class="col-md-5">
-				<div class="panel panel-default active-0">
-					<div class="panel-body">
-						<h1>Player 1</h1>
-						<div class="scoreboard">
-							<h2>Current Score:</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<h1>Roll Dice</h1>
-				<div id="rollDice"></div>
-				<div class="button-group">
-					<br>
-					<button class="btn btn-outline-success" id="roll">Roll</button><br>
-					<button class="btn btn-outline-success" id="hold">Hold</button><br>
-					<br>
-				</div>
-			</div>
-			<div class="row slide text-center" id="game">
-				<div class="col-md-5">
-					<div class="panel panel-default">
-						<div class="panel-body">
-							<h1>Player 2</h1>
-							<div class="scoreboard">
-								<h2>Current Score:</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.js">
-	</script>
-	<script src="js/scripts.js">
-	</script>
+      <h1>Pig Dice Game</h1>
+      <h2>A member of Jeopardy race games</h2>
+      <a href="rules.html" class="rules">Rules Of the Game</a>
+    </div><br>
+
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-2">
+            <button id="newGame" class="btn btn-outline-warning">New Game</button><br>
+      </div>
+      <div class="col-md-5"></div>
+    </div>
+    <div id="game" class="row slide text-center">
+      <div class="col-md-5">
+        <div class="panel panel-default active-0">
+          <div class="panel-body">
+            <h1>Player 1</h1>
+            <div class="scoreboard">
+              <h2>Current Score:</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <h1>Roll Dice</h1>
+        <div id="rollDice"></div>
+        <div class="button-group">
+        <br>
+        <button id="roll" class="btn btn-outline-success">Roll</button><br>
+        <button id="hold" class="btn btn-outline-success">Hold</button><br>
+        <br>
+        </div>
+      </div>
+    <div id="game" class="row slide text-center">
+      <div class="col-md-5">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h1>Player 2</h1>
+            <div class="scoreboard">
+              <h2>Current Score:</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  	<script src="js/scripts.js"></script>
 </body>
 </html>
