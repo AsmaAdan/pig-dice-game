@@ -1,5 +1,7 @@
-body{ background-image: url("../image/dice-red.jpeg");
+body{ background-image: url("../image/garden.jpeg");
+      object-fit: cover;
 }
-h1{
-  color: blue;
+.jumbotron{background-color: #8F6334;
+          color: orange;
+           text-align: center;
 }
