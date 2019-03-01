@@ -1,38 +1,42 @@
-body{ background-image: url("../image/garden.jpeg");
-      object-fit: cover;
+body {
+	background-image: url("../image/garden.jpeg");
+	object-fit: cover;
 }
-.jumbotron{background-color: #8F6334;
-          color: orange;
-           text-align: center;
+.jumbotron {
+	background-color: #8F6334;
+	color: orange;
+	text-align: center;
 }
-h1{color: orange;
-   font-family:serif;
-   font-weight: bold;
+h1 {
+	color: orange;
+	font-family: serif;
+	font-weight: bold;
 }
-.scoreboard{color:
-            margin-top: 250px;
-            margin-left: auto;
-            margin-right: auto;
-            object-fit: scale-down;
+.scoreboard {
+	color: margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: scale-down;
 }
-
-.btn {font-size: 20px;
-      width: 150px;
-      cursor: pointer;
-      font-weight: 300;
+.btn {
+	font-size: 20px;
+	width: 150px;
+	cursor: pointer;
+	font-weight: 300;
 }
-.panel-body{height: 500px;
-            border: 10px
-            margin:auto;
+.panel-body {
+	height: 500px;
+	border: 10px margin:auto;
 }
-.newGame{margin: 500px;
+.newGame {
+	margin: 500px;
 }
-.rules{color: #F5EF2A;
-  #0561F7;
-      font-size: 1000;
-      font-weight:1000;
-      text-decoration: underline;
+.rules {
+	color: #F5EF2A;
+	font-size: 1000;
+	font-weight: 1000;
+	text-decoration: underline;
 }
-#roll{
-  margin-bottom: 10px;
+#roll {
+	margin-bottom: 10px;
 }
