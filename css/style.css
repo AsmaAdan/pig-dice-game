@@ -44,3 +44,12 @@ h1 {
   display: none;
 
 }
+.col-md-2{
+  background-color: white
+}
+#dice1{
+  align-items: center;
+}
+#dice2{
+  align-items: center;
+}
