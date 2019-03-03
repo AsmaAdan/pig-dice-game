@@ -20,6 +20,7 @@
       </div>
       <div class="col-md-4"></div>
     </div>
+    <br>
     <div id="slide">
     <div class="row">
 
@@ -28,7 +29,8 @@
           <div class="panel-body">
             <h1>Player 1</h1>
             <div class="scoreboard">
-              <h2 id="current">Current Score:</h2>
+              <h2 id="current">Current Score:</h2><br><br>
+              <h3 id="total">Total Score:</h3>
             </div>
           </div>
         </div>
@@ -39,7 +41,7 @@
         <h1>Roll Dice</h1>
         <div id="dice1"class="dice">0</div>
         <button onclick="roll()"class="btn btn-outline-success">Roll</button><br>
-        <button id="hold" class="btn btn-outline-success">Hold</button><br>
+        <button onclick="hold()"class="btn btn-outline-success">Hold</button><br>
         <br>
         </div>
 
@@ -50,7 +52,8 @@
           <div class="panel-body">
             <h1>Player 2</h1>
             <div class="scoreboard">
-              <h2 class="current">Current Score:</h2>
+              <h2 id="next">Current Score:</h2><br><br>
+              <h3 id="result">Total Score:</h3>
             </div>
           </div>
         </div>
