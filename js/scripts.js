@@ -26,6 +26,8 @@ if (c === 1) {
     score=[0];
     next.innerHTML=score.unshift(a);
     result.innerHTML= c + d;
+    $("#roll").hide();
+    $("#roll2").show();
 
   }
 }
@@ -45,6 +47,8 @@ if (c === 1) {
       score=[0];
       current.innerHTML=score.unshift(a);
       total.innerHTML= c + d;
+      $("#roll2").hide();
+      $("#roll").show();
 }
 }
 if (score=== 100) {
