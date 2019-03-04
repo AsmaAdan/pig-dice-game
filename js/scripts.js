@@ -28,6 +28,25 @@ if (c === 1) {
     result.innerHTML= c + d;
 
   }
+}
+  function roll2 (){
+  var b = document.getElementById("dice1");
+  var c= a[Math.floor(Math.random()*6)];
+  var d= score.unshift(c);
+  var e= now.unshift(c);
+  dice1.innerHTML = c;
+  next.innerHTML=score.unshift(a);
+  result.innerHTML= c + d;
+
+  if (c === 1) {
+      alert("Sorry, you rolled a one!");
+      current.innerHTML=0;
+      total.innerHTML= 0;
+      score=[0];
+      current.innerHTML=score.unshift(a);
+      total.innerHTML= c + d;
+}
+}
 if (score=== 100) {
     alert("you are a winner");
      rollBtn.attr("disabled", "disabled");
@@ -35,4 +54,3 @@ if (score=== 100) {
   function hold(){
     return total + current
   }
-}
