@@ -6,55 +6,56 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class="container">
+	<div class="container">
 		<div class="jumbotron">
-      <h1>Pig Dice Game</h1>
-      <h2>A member of Jeopardy race games</h2>
-      <a href="rules.html" class="rules">Rules Of the Game</a>
-    </div><br>
-    <div class="row">
-      <div class="col-md-5"></div>
-      <div class="col-md-2">
-          <button type="submit" id="newGame" class="btn btn-outline-warning">New Game</button><br>
-      </div>
-      <div class="col-md-4"></div>
-    </div>
-    <br>
-    <div id="slide">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="panel panel-default active-0">
-          <div class="panel-body">
-            <h1>Player 1</h1>
-            <div class="scoreboard">
-              <h2 id="current">Current Score:</h2><br><br>
-            </div>
-            <h3 id="total">Total Score:</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <h1>Roll Dice</h1>
-        <div id="dice1"class="dice">0</div>
-        <button id="roll" onclick="roll()"class="btn btn-outline-success">Roll</button><br>
-        <button id="roll2" onclick="roll2()"class="btn btn-outline-success">Roll 2</button><br>
-        <br>
-      </div>
-      <div class="col-md-5">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <h1>Player 2</h1>
-            <div class="scoreboard">
-              <h2 id="next">Current Score:</h2><br><br>
-            </div>
-            <h3 id="result">Total Score:</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+			<h1>Pig Dice Game</h1>
+			<h2>A member of Jeopardy race games</h2><a class="rules" href="rules.html">Rules Of the Game</a>
+		</div><br>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<button class="btn btn-outline-warning" id="newGame" type="submit">New Game</button><br>
+			</div>
+			<div class="col-md-4"></div>
+		</div><br>
+		<div id="slide">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="panel panel-default active-0">
+						<div class="panel-body">
+							<h1>Player 1</h1>
+							<div class="scoreboard">
+								<h2 id="current">Current Score:</h2><br>
+								<br>
+							</div>
+							<h3 id="total">Total Score:</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<h1>Roll Dice</h1>
+					<div class="dice" id="dice1">
+						0
+					</div><button class="btn btn-outline-success" id="roll" onclick="roll()">Roll</button><br>
+					<button class="btn btn-outline-success" id="roll2" onclick="roll2()">Roll 2</button><br>
+					<br>
+				</div>
+				<div class="col-md-5">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h1>Player 2</h1>
+							<div class="scoreboard">
+								<h2 id="next">Current Score:</h2><br>
+								<br>
+							</div>
+							<h3 id="result">Total Score:</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
