@@ -40,13 +40,12 @@ h1 {
 #roll {
 	margin-bottom: 10px;
 }
-#slide{
-  display: none;
-
+#slide {
+	display: none;
 }
-.col-md-2{
-  background-color: white
+.col-md-2 {
+	background-color: white
 }
-#dice1{
-  align-items: center;
+#dice1 {
+	align-items: center;
 }
