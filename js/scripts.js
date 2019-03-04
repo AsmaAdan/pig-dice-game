@@ -30,10 +30,11 @@ if (c === 1) {
     result.innerHTML= c + d;
 
   }
-}
-if (total === 100  || current ===100) {
+if (c+d === 100) {
     alert("you are a winner");
+     rollBtn.attr("disabled", "disabled");
   }
   function hold(){
     return total + current
   }
+}
